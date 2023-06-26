@@ -1,0 +1,38 @@
+<form class="form-horizontal form-complex">
+    <div class="control-group">
+        <label class="control-label" for="discord_message">Message</label>
+
+        <div class="controls">
+            <textarea name="action.discord_alert_action.param.message" id="discord_message" style="height: 140px;"></textarea>
+            <span class="help-block">Message that will be sent to discord. (Use <i>$result.FIELD_NAME$</i> to send field values.)</span>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label" for="discord_severity">Severity</label>
+
+        <div class="controls">
+            <select name="action.discord_alert_action.param.severity" id="discord_severity" >
+                <option value="LOW">Low</option>
+                <option value="MEDIUM">Medium</option>
+                <option value="HIGH">High</option>
+                <option value="CRITICAL">Critical</option>
+            </select>
+            <span class="help-block">Severity of the alert</span>
+        </div>
+    </div>
+    
+    <div class="control-group">
+        <label class="control-label" for="discord_chat">webhook_url</label>
+
+        <div class="controls">
+            <input type="text" name="action.discord_alert_action.param.webhook_url" id="discord_chat" placeholder="" />
+            <span class="help-block">webhook_url the bot will send the message to.</span>
+        </div>
+    </div>
+	<div class="control-group">
+		<label class="control-label" for="discord_result">Link to Results</label>
+        <div class="controls">
+			<input type="checkbox" name="action.discord_alert_action.param.result_link" id="discord_result" placeholder="" value="1"/>
+        </div>
+    </div>
+</form>
