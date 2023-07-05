@@ -1,6 +1,7 @@
 # Splunk App - Discord Alert Action
 
 This app allows users to send Splunk alerts to Discord. Package can be downloaded [here](https://github.com/qwerty1q2w/discord_alert_action/releases/)
+
 Splunkbase - https://splunkbase.splunk.com/app/6955
 
 If you need any support or want to report any problem please create an issue on https://github.com/qwerty1q2w/discord_alert_action/issues
