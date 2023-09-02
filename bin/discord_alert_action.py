@@ -36,7 +36,7 @@ def main():
 
     if result_link == "0":
         fields = [
-            {"name": "Severty", "value": severity, "inline": False},
+            {"name": "Severity", "value": severity, "inline": False},
             {
                 "name": "Alert Owner",
                 "value": str(payload.get("owner")),
