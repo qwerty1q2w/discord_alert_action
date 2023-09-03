@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "2.0.0",
+  "info": {
+    "title": "Discord Alert Action",
+    "id": {
+      "group": null,
+      "name": "discord_alert_action",
+      "version": "1.0.11"
+    },
+    "author": [
+      {
+        "name": "Dmitrii Pushkarev",
+        "email": null,
+        "company": null
+      }
+    ],
+    "releaseDate": null,
+    "description": "This app allows Splunk alerts to be sent to Discord chat.",
+    "classification": {
+      "intendedAudience": null,
+      "categories": [],
+      "developmentStatus": null
+    },
+    "commonInformationModels": null,
+    "license": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseNotes": {
+      "name": null,
+      "text": "./README.md",
+      "uri": null
+    }
+  },
+  "dependencies": null,
+  "tasks": null,
+  "inputGroups": null,
+  "incompatibleApps": null,
+  "platformRequirements": null,
+  "supportedDeployments": [
+    "_standalone",
+    "_distributed"
+  ],
+  "targetWorkloads": ["_search_heads"]
+}
+

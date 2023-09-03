@@ -7,9 +7,10 @@ import json
 
 def send_alert(final_text, webhook_url):
     headers = {"Content-Type": "application/json"}
-    response = requests.post(
-        url=webhook_url, headers=headers, data=json.dumps(final_text)
-    ).json()
+    if webhook_url.split(':')[0] == 'https':
+        response = requests.post(
+            url=webhook_url, headers=headers, verify=True, data=json.dumps(final_text)
+        ).json()
     return response
 
 
