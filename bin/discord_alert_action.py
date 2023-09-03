@@ -56,7 +56,7 @@ def main():
         final_text = data
     elif result_link == "1":
         fields = [
-            {"name": "Severty", "value": severity, "inline": False},
+            {"name": "Severity", "value": severity, "inline": False},
             {
                 "name": "Link",
                 "value": str(payload.get("results_link")),
